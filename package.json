@@ -1,0 +1,38 @@
+{
+  "name": "cy-copy-prompt",
+  "version": "1.0.0",
+  "description": "Cypress plugin to copy prompt to clipboard",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npx cypress run",
+    "test:open": "npx cypress open",
+    "release": "release-it --github.release",
+    "release:ci": "npm run release -- --ci --npm.skipChecks --no-git.requireCleanWorkingDir",
+    "release:patch": "npm run release -- patch",
+    "release:minor": "npm run release -- minor",
+    "release:major": "npm run release -- major"
+  },
+  "keywords": [
+    "cypress",
+    "plugin",
+    "ai",
+    "copy",
+    "prompt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaichenkov/cy-copy-prompt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elaichenkov/cy-copy-prompt/issues"
+  },
+  "author": "Yevhen Laichenkov <elaichenkov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^14.4.0",
+    "release-it": "^19.0.2"
+  }
+}
