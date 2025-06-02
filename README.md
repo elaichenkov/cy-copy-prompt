@@ -2,7 +2,7 @@
 
 ![](./assets/image.png)
 
-Cypress copy prompt plugin for helping to debug tests
+Cypress copy prompt plugin for helping to debug tests. Inspired by Playwright's copy prompt feature.
 
 ## Installation
 
