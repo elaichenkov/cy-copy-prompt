@@ -1,5 +1,7 @@
 # cy-copy-prompt
 
+![](./assets/image.png)
+
 Cypress copy prompt plugin for helping to debug tests
 
 ## Installation
