@@ -1,6 +1,6 @@
 {
   "name": "cy-copy-prompt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cypress plugin to copy prompt to clipboard",
   "main": "index.js",
   "files": [
