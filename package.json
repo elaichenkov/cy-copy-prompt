@@ -32,7 +32,7 @@
   "author": "Yevhen Laichenkov <elaichenkov@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^14.4.0",
+    "cypress": "^15.8.2",
     "release-it": "^19.0.2"
   }
 }
